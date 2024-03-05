@@ -3,7 +3,8 @@ header{
     color:white;
     display: flex;
     justify-content: space-around;
-    align-items:center
+    align-items:center;
+    padding:24px 0;
 }
 
 .imagem-cabecalho{
@@ -11,6 +12,6 @@ header{
 }
 
 .cabecalho-item{
-display: inline-block
+display: inline-block;
 
 }
