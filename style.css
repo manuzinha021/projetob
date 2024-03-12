@@ -21,3 +21,8 @@ display: inline-block;
 margin: 0 16px;
 font-size: 24px;
 }
+
+.bandeira-image{
+   width: 25%;
+   height: 40%;
+}
