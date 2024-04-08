@@ -1,6 +1,11 @@
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
 }
 
 .cabecalho {
@@ -23,12 +28,23 @@
 }
 
 .escola-imagem{
-    width: 210px;
+    width: 320px;
     height: 313px;
 }
 
-.Personagens{
-    background-image: linear-gradient(green)
-    ;
+.escola{
+    background-image: linear-gradient(#0846ab,#16CFF8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
 
+.conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0px;
 }
