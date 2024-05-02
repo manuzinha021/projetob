@@ -1,51 +1,42 @@
-
-*{
+*{ 
     margin: 0;
     padding: 0;
 }
-
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Fira Sans", sans-serif;
 }
 
-.cabecalho {
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+.cabecalho{
+background-color:#FF0C0C ;
+color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
 }
 
-.cabecalho-imagem{
-    width: 20%;
+.imagem-cabecalho{
+width: 20%;
 }
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+.cabecalho-item{
+display: inline-block;
+margin: 0 16px;
+font-size: 24px;
 }
-
-.escola-imagem{
-    width: 320px;
-    height: 313px;
+.sao-imagem{
+width: 320px ;
+height:313px ;
 }
-
-.escola{
-    background-image: linear-gradient(#0846ab,#16CFF8);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0px;
+.sao-paulo{
+background-image: linear-gradient(#FF0C0C,white);
+color: aliceblue;
+display: flex;
 }
-
 .conteudo{
-    width: 35%;
-}
+width: 35%;
 
-.escola-titulo{
+}
+.sao-titulo{
     padding: 24px 0px;
 }
 
@@ -56,4 +47,11 @@ body{
     width: 24px;
     padding: 4px 8px;
 }
-
+.jogador-div{
+    text-align: center;
+    padding: 16px 0;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
